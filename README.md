@@ -4,8 +4,9 @@ Markdown compilation in es6 template strings
 ```js
 var md = require('markdown-string')
 
-md`returns _markdown_ compiled as an *html* string`
-// '<p>returns <em>markdown</em> compiled as an <em>html</em> string</p>\n'
+var args = { exclamation: '!!1' }
+md`compiles **markdown** strings to *html* strings${args.exclamation}`
+// 'compiles <strong>markdown</strong> strings to <em>html</em> strings!!1'
 
 md`
 # Multiline Strings

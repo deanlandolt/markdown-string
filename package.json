@@ -1,6 +1,6 @@
 {
   "name": "markdown-string",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdown compilation in es6 template strings",
   "main": "index.js",
   "scripts": {
