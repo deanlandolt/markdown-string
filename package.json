@@ -1,0 +1,28 @@
+{
+  "name": "markdown-string",
+  "version": "0.1.0",
+  "description": "Markdown compilation in es6 template strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deanlandolt/markdown-string.git"
+  },
+  "dependencies": {
+    "commonmark": "^0.12.0"
+  },
+  "keywords": [
+    "markdown",
+    "es6",
+    "template",
+    "strings"
+  ],
+  "author": "Dean Landolt <dean@deanlandolt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deanlandolt/markdown-string/issues"
+  },
+  "homepage": "https://github.com/deanlandolt/markdown-string"
+}
